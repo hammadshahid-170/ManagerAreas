@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "manager-areas-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/managerAreas/ManagerAreasWebPart.js",
+          "manifest": "./src/webparts/managerAreas/ManagerAreasWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ManagerAreasWebPartStrings": "lib/webparts/managerAreas/loc/{locale}.js"
+  }
+}
